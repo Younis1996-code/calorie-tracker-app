@@ -7,6 +7,7 @@ console.log(__dirname);
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/calorie-tracker-app/", // Add this line
   resolve: {
     alias: {
       "@root": resolve(__dirname, "src"),
